@@ -11,10 +11,7 @@ The overall repository structure consists of the following projects located unde
   - Quotes - sample feed providing the quotes (e.g. currency)
   - Weather - sample feed providing the weather related data
 
-# Episodes
 
-The **implementation process** can be found on our [DevMentors YouTube](https://www.youtube.com/devmentors) channel, where we publish the **videos** about building this project.
-You can navigate through this repository via specific `episode` tags which are related to the videos.
 
 # Requirements
 
