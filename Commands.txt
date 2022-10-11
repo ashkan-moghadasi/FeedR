@@ -1,0 +1,7 @@
+docker build -t feeder-gateway -f src/Gateway/Dockerfile .
+docker run --rm -it -p 5000:80 feeder-gateway
+docker compose -f services.yml build
+docker compose -f services.yml up -d
+docker system proune
+docker compose -f services.yml logs
+docker compose -f services.yml ps
