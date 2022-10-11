@@ -4,9 +4,6 @@
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>c5a2c0b2-36b7-4552-807a-e8c0a3016d0e</UserSecretsId>
-        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <DockerfileContext>..\..\..\..</DockerfileContext>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,6 +14,6 @@
       <ProjectReference Include="..\..\..\Shared\FeedR.Shared\FeedR.Shared.csproj" />
     </ItemGroup>
 
-    <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
 
 </Project>

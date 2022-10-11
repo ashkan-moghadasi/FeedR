@@ -21,12 +21,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "development"
       }
-    },
-    "Docker": {
-      "commandName": "Docker",
-      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "publishAllPorts": true,
-      "useSSL": true
     }
   }
 }

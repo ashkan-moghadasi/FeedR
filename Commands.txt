@@ -5,3 +5,6 @@ docker compose -f services.yml up -d
 docker system proune
 docker compose -f services.yml logs
 docker compose -f services.yml ps
+
+/*Run a new instance of project with different port*/
+dotnet run --urls "http://*:5011"
